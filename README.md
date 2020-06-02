@@ -1,7 +1,7 @@
 # CLI Socket-Based Multiple Client Chatroom by Aayush Gupta
 The App is coded in NodeJS
 
-##Prerequisites
+## Prerequisites
 Node
 NPM
 
@@ -15,13 +15,13 @@ npm i chalk
 ```
 
 ## Usage
-###First We have to start the Server. We can do that by running the following command :
+### First We have to start the Server. We can do that by running the following command :
 ```
 node chat-node
 ```
 If there is no error , the server will start successfully and output "ChatRoom Created!" on the console.
 
-###Then we have to start the Client. We have a N number of clients in our CLI application. We begin by adding two clients. Run the following command in another terminal to start the first client.
+### Then we have to start the Client. We have a N number of clients in our CLI application. We begin by adding two clients. Run the following command in another terminal to start the first client.
 
 ```
 node chat-client
@@ -30,5 +30,5 @@ If there is no error, the server will output "Client Connected" on console and o
 By following the same step we can add N number of more clients according to our requirement.
 All the clients opened in different terminal windows will continuously send randomly select messages from the text file to each other. The white coloured message in the client console will be the one it has sent whereas the yellow coloured message will be from another client.
 
-##Stopping the CLI App
+## Stopping the CLI App
 To stop the CLI app from running we have to press ```(Ctrl+C)``` on the server side terminal. This command will stop the operations at all the opened terminal windows.
